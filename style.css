@@ -1,0 +1,396 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+    color:white;
+    background-color: orange;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    margin-top:24px;
+    margin-bottom: 200px;
+}
+.main-list{
+    display:flex;
+    list-style: none;
+    font-family: arial;
+}
+.main-item:not(:last-child){
+      margin-right:120px;
+}
+.main-item .main-href{
+    text-decoration: none;
+    color:#fff;
+    transition:0.5s;
+}
+.main-item .main-href:hover{
+    color:orange
+}
+.main{
+    max-width:500px;
+    padding-left:50px;
+}
+.menu-button{
+    all:unset;
+    background-color: orange;
+    border-radius: 15px;
+    color:white;
+    width:250px;
+    height:50px;
+    text-align: center;
+    cursor:pointer;
+    transition: 0.5s;
+    margin-top:50px;
+    margin-left:24px;
+    font-family: arial;
+}
+.menu-button:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 10px 10px rgba(117, 33, 0, 0.8);
+    background-color: orangered;
+}
+.article-1{
+    background: url(image/msg-1974591931-504.jpg) top center/cover;
+    height:1020px;
+    margin:-10px;
+}
+h1{
+    color:white;
+    font-family: sans-serif;
+}
+.container {  
+   width: 75%;
+   border: 2px solid #ccc;
+   background-color: #eee;
+   border-radius: 5px;
+   padding: 16px; 
+   margin: 16px auto; 
+ }
+ .container span {
+   color:black;
+   font-size: 18px;
+   margin-right: 15px;
+ }
+ .otziv{
+   color:black;
+ }
+ @media (max-width: 450px) {
+   .container {
+     text-align: center;
+   }
+   .container img {
+     margin: auto;
+     float: none;
+     display: block;
+   }
+ }
+ .container img {
+   float: left;
+   margin-right: 20px; 
+   border-radius: 50%; 
+   width: 90px;
+ }
+ .pictiru-1{
+  margin-left:50px;
+}
+.burger{
+  position: absolute;
+  width: 404px;
+  height: 42px;
+  left: 695px;
+  top: 1023px;
+  color:#fff;
+  font-size: 40px;
+}
+.para-burger{
+  position: absolute;
+  width: 569px;
+  height: 514px;
+  left: 695px;
+  top: 1176px;
+  font-family: 'Abhaya Libre SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+.price{
+  position: absolute;
+  width: 219px;
+  height: 47px;
+  left: 695px;
+  top: 1541px;
+  font-size: 25px;
+  color: #fff;
+}
+.buy{
+  all:unset;
+  background-color: orange;
+  border-radius: 15px;
+  border:1px black;
+  color:white;
+  width:250px;
+  height:50px;
+  text-align: center;
+  cursor:pointer;
+  transition: 0.5s;
+  margin-top:50px;
+  margin-left:24px;
+  font-family: arial;
+  position: absolute;
+  left: 941px;
+  top: 1520px;
+}
+.buy:hover{
+  transform:translateY(-10px);
+  box-shadow: 0 10px 10px rgba(163, 46, 0, 0.8);
+}
+.number{
+  text-decoration: none;
+  color:#fff;
+}
+#chiken-burger{
+  width:517px; 
+  height:371px;
+  border-radius: 37px;
+}
+.chiken-burger-title{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  width: 404px;
+  height: 42px;
+  left: 695px;
+  top: 1660px;
+  color:#fff;
+}
+.chiken-burger-para{
+  position: absolute;
+  width: 569px;
+  height: 514px;
+  left: 695px;
+  top: 1776px;
+  font-family: 'Abhaya Libre SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+.buy-2{
+  all:unset;
+  background-color: orange;
+  border-radius: 15px;
+  border:1px black;
+  color:white;
+  width:250px;
+  height:50px;
+  text-align: center;
+  cursor:pointer;
+  transition: 0.5s;
+  margin-top:50px;
+  margin-left:24px;
+  font-family: arial;
+  position: absolute;
+  left: 941px;
+  top: 2020px;
+}
+.buy-2:hover{
+  transform:translateY(-10px);
+  box-shadow: 0 10px 10px rgba(163, 46, 0, 0.8);
+}
+.price-2{
+  position: absolute;
+  width: 219px;
+  height: 47px;
+  left: 695px;
+  top: 2050px;
+  font-size: 25px;
+  color: #fff;
+}
+#black-burger{
+  width:517px; 
+  height:371px;
+  border-radius: 37px;
+}
+.black-burger-title{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  width: 404px;
+  height: 42px;
+  left: 695px;
+  top: 2210px;
+  color:#fff;
+}
+.black-burger-para{
+  color: #FFF;
+  font-size: 24px;
+  font-family: 'Abhaya Libre SemiBold';
+  font-weight: 600;
+  position: absolute;
+  width: 569px;
+  height: 514px;
+  left: 695px;
+  top: 2326px;
+  line-height: 28px;
+}
+.buy-3{
+  all:unset;
+  background-color: orange;
+  border-radius: 15px;
+  border:1px black;
+  color:white;
+  width:250px;
+  height:50px;
+  text-align: center;
+  cursor:pointer;
+  transition: 0.5s;
+  margin-top:50px;
+  margin-left:24px;
+  font-family: arial;
+  position: absolute;
+  left: 941px;
+  top: 2530px;
+}
+.buy-3:hover{
+  transform:translateY(-10px);
+  box-shadow: 0 10px 10px rgba(163, 46, 0, 0.8);
+}
+.price-3{
+  position: absolute;
+  width: 219px;
+  height: 47px;
+  left: 695px;
+  top: 2550px;
+  font-size: 25px;
+  color: #fff;
+}
+#chiken-burger{
+  width:517px; 
+  height:371px;
+  border-radius: 37px;
+}
+.chiken-burger-title{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  width: 404px;
+  height: 42px;
+  left: 695px;
+  top: 1660px;
+  color:#fff;
+}
+.chiken-burger-para{
+  position: absolute;
+  width: 569px;
+  height: 514px;
+  left: 695px;
+  top: 1776px;
+  font-family: 'Abhaya Libre SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+.buy-2{
+  all:unset;
+  background-color: orange;
+  border-radius: 15px;
+  border:1px black;
+  color:white;
+  width:250px;
+  height:50px;
+  text-align: center;
+  cursor:pointer;
+  transition: 0.5s;
+  margin-top:50px;
+  margin-left:24px;
+  font-family: arial;
+  position: absolute;
+  left: 941px;
+  top: 2020px;
+}
+.buy-2:hover{
+  transform:translateY(-10px);
+  box-shadow: 0 10px 10px rgba(163, 46, 0, 0.8);
+}
+.price-2{
+  position: absolute;
+  width: 219px;
+  height: 47px;
+  left: 695px;
+  top: 1950px;
+  font-size: 25px;
+  color: #fff;
+}
+#cheese-burger{
+  width:517px; 
+  height:371px;
+  border-radius: 37px;
+}
+.cheese-burger-title{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  width: 404px;
+  height: 42px;
+  left: 695px;
+  top: 2710px;
+  color:#fff;
+}
+.cheese-burger-para{
+  color: #FFF;
+  font-size: 24px;
+  font-family: 'Abhaya Libre SemiBold';
+  font-weight: 600;
+  position: absolute;
+  width: 569px;
+  height: 514px;
+  left: 695px;
+  top: 2876px;
+  line-height: 28px;
+}
+.buy-4{
+  all:unset;
+  background-color: orange;
+  border-radius: 15px;
+  border:1px black;
+  color:white;
+  width:250px;
+  height:50px;
+  text-align: center;
+  cursor:pointer;
+  transition: 0.5s;
+  margin-top:50px;
+  margin-left:24px;
+  font-family: arial;
+  position: absolute;
+  left: 941px;
+  top: 3200px;
+}
+.buy-4:hover{
+  transform:translateY(-10px);
+  box-shadow: 0 10px 10px rgba(163, 46, 0, 0.8);
+}
+.price-4{
+  position: absolute;
+  width: 219px;
+  height: 47px;
+  left: 695px;
+  top: 3235px;
+  font-size: 25px;
+  color: #fff;
+}
+.button-menu{
+  text-decoration: none;
+  color:#fff;
+  transition:0.5s;
+}
